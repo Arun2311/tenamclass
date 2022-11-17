@@ -62,7 +62,7 @@ function Crud() {
 
   return <div>
 
-    <h1>Todo Task</h1>
+    <h1>Todo Task arun changeing datas</h1>
     <label className="mx-3">Task</label>
     <input type="text" value={input} onChange={handlechange} />
     <button onClick={handleadd}  className="mx-3 btn btn-primary">Add task</button>

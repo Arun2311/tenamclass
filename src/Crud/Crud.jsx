@@ -62,12 +62,13 @@ function Crud() {
 
   return <div>
 
-    <h1>Todo Task arun changeing datas</h1>
+    <h1>TArun</h1>
     <label className="mx-3">Task</label>
+    <h1>Arun</h1>
     <input type="text" value={input} onChange={handlechange} />
     <button onClick={handleadd}  className="mx-3 btn btn-primary">Add task</button>
    
- 
+\
 
     {todos.map((to,index)=>
         <div className="mx-3" key={to.id}>{to.task}

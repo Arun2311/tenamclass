@@ -45,7 +45,7 @@ export default class Review extends Component {
   render() {
     return (
       <div className='bg-color' >
-        <h1>{this.state.data.length}  Birthdays today</h1>
+        <h1>{this.state.data.length}  Birthdayoday</h1>
         {this.state.data.map(d=>
         <div key={d.id}>
             <img className='roundimg' src={d.image} height="300" width={300}/>
